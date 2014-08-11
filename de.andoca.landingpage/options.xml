@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<categories>
+			<category name="de.andoca.landingpage">
+				<parent>board</parent>
+				<showorder>110</showorder>
+			</category>
+			<category name="de.andoca.landingpage.settings">
+				<parent>de.andoca.landingpage</parent>
+				<showorder>10</showorder>
+			</category>
+			<category name="de.andoca.landingpage.stoplist">
+				<parent>de.andoca.landingpage</parent>
+				<showorder>20</showorder>
+			</category>
+		</categories>
+		<options>
+			<option name="lpgenerator_stoplist">
+				<categoryname>de.andoca.landingpage.stoplist</categoryname>
+				<optiontype>textarea</optiontype>
+			</option>
+			<option name="lpgenerator_listlength">
+				<categoryname>de.andoca.landingpage.settings</categoryname>
+				<optiontype>integer</optiontype>
+			</option>
+			<option name="lpgenerator_google">
+				<categoryname>de.andoca.landingpage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+				<defaultvalue>0</defaultvalue>
+			</option>
+			<option name="lpgenerator_minsearch">
+				<categoryname>de.andoca.landingpage.settings</categoryname>
+				<optiontype>integer</optiontype>
+			</option>
+			<option name="lpgenerator_maxage">
+				<categoryname>de.andoca.landingpage.settings</categoryname>
+				<optiontype>integer</optiontype>
+			</option>
+		</options>
+	</import>
+</data>

@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!DOCTYPE package SYSTEM "http://www.woltlab.com/DTDs/package.dtd">
+<package name="de.andoca.landingpage.tagcloud">
+	<packageInformation>
+		<packageName><![CDATA[Landingpage Generator Tagcloud]]></packageName>
+		<packageDescription language="de"><![CDATA[Tagcloud mit den Links aus dem Landingpage Generator.]]></packageDescription>
+		<packageDescription language="de-informal"><![CDATA[Tagcloud mit den Links aus dem Landingpage Generator.]]></packageDescription>
+		<packageurl><![CDATA[http://www.andoca.de]]></packageurl>
+		<isUnique>1</isUnique>
+		<version>1.0.0</version>
+		<date>2011-07-08</date>
+		<standalone>0</standalone>
+		<plugin>com.woltlab.wbb</plugin>
+	</packageInformation>
+
+	<authorInformation>
+		<author><![CDATA[Andoca Haustier-WG UG (haftungsbeschränkt)]]></author>
+		<authorURL><![CDATA[http://www.andoca.de]]></authorURL>
+	</authorInformation>
+	
+	<requiredpackages>
+		<requiredpackage>de.andoca.landingpage</requiredpackage>
+	</requiredpackages>	
+	
+	<instructions type="install">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		
+		<eventlistener>eventlistener.xml</eventlistener>
+		<options>options.xml</options>
+		
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+	
+	<instructions type="update" fromversion="*">
+		<files>files.tar</files>
+		<templates>templates.tar</templates>
+		
+		<eventlistener>eventlistener.xml</eventlistener>
+		<options>options.xml</options>
+		
+		<languages languagecode="de">de.xml</languages>
+		<languages languagecode="de-informal">de-informal.xml</languages>
+	</instructions>
+</package>

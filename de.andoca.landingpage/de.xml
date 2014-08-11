@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE language SYSTEM "http://www.woltlab.com/DTD/language.dtd">
+<language languagecode="de">
+	<category name="wcf.acp.option">
+		<item name="wcf.acp.option.category.de.andoca.landingpage"><![CDATA[Landingpage]]></item>
+		<item name="wcf.acp.option.category.de.andoca.landingpage.description"><![CDATA[<p>Hier können Sie Einstellungen für die automatisch generierte Landingpage festlegen. Auf der Landingpage befinden sich Links zu Suchanfragen die in Ihrem Forum mit der Suche durchgeführt wurden.</p><p>Die Landingpage finden Sie in Ihrer Endanwendung unter index.php?page=LpGenerator</p><p>Eine zusätzlich generierte XML Sitemap (die Sie bei Suchmaschinen einreichen  bzw. auf die Sie via .htaccess verweisen können) finden Sie unter index.php?page=LpGenerator&amp;xml=1</p>]]></item>
+		<item name="wcf.acp.option.category.de.andoca.landingpage.settings"><![CDATA[Suchbegriffeinstellungen]]></item>
+		<item name="wcf.acp.option.category.de.andoca.landingpage.settings.description"><![CDATA[]]></item>
+		<item name="wcf.acp.option.category.de.andoca.landingpage.stoplist"><![CDATA[Stopliste]]></item>
+		<item name="wcf.acp.option.category.de.andoca.landingpage.stoplist.description"><![CDATA[Geben Sie hier Begriffe an, die nicht gelistet werden sollen.]]></item>
+		
+		<item name="wcf.acp.option.lpgenerator_stoplist"><![CDATA[Stoplist]]></item>
+		<item name="wcf.acp.option.lpgenerator_stoplist.description"><![CDATA[Ein Eintrag pro Zeile. Ein einfacher Eintrag hat am Anfang und am Ende automatisch ein Wildcard (beliebiger Text davor oder danach). D.h. wird hier "Wort" angegeben, wird auch der Begriff "Hier komm ein Wort vor" ausgeschlossen. Soll nur ein exakter Treffer zum Ausschluss führen, muss mit einem ^ der Anfang und mit einem $ das Ende markiert werden: <strong>^Wort$</strong><br /> Hier können Regular Expressions verwendet werden.]]></item>
+		<item name="wcf.acp.option.lpgenerator_google"><![CDATA[Google-Suchbegriffe erfassen]]></item>
+		<item name="wcf.acp.option.lpgenerator_google.description"><![CDATA[Aktivieren Sie diese Option, wenn Sie wollen, dass auch Suchbegriffe erfasst werden, über die ein Besucher via Google auf Ihre Seite gekommen ist. Achtung: Einige Suchbegriffe von Google ergeben aufgrund unterschiedlicher Algorithmen keine Treffer in der WCF Suche.]]></item>
+		<item name="wcf.acp.option.lpgenerator_listlength"><![CDATA[Listengröße]]></item>
+		<item name="wcf.acp.option.lpgenerator_listlength.description"><![CDATA[Anzahl an Suchbegriffen die in der Liste angezeigt werden (häufige Suchbegriffe werden bevorzugt angezeigt).]]></item>
+		<item name="wcf.acp.option.lpgenerator_minsearch"><![CDATA[Mindestanzahl]]></item>
+		<item name="wcf.acp.option.lpgenerator_minsearch.description"><![CDATA[Wie oft muss ein Begriff gesucht worden sein, damit er auf der Liste aufscheint?]]></item>
+		<item name="wcf.acp.option.lpgenerator_maxage"><![CDATA[Maximales Alter]]></item>
+		<item name="wcf.acp.option.lpgenerator_maxage.description"><![CDATA[Anzahl an Tagen die zurückliegen dürfen seit der letzten Suche nach diesem Begriff, damit er auf der Liste aufscheint.]]></item>
+	</category>
+	<category name="de.andoca.landingpage">
+		<item name="de.andoca.landingpage.page.title"><![CDATA[Häufige Suchanfragen]]></item>
+		<item name="de.andoca.landingpage.page.desc"><![CDATA[Hier finden Sie eine Liste an häufigen Suchanfragen:]]></item>
+	</category>
+</language>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE data SYSTEM "http://www.woltlab.com/DTD/options.dtd">
+<data>
+	<import>
+		<options>
+			<option name="LPGENERATOR_TAGCLOUD">
+				<categoryname>de.andoca.landingpage.settings</categoryname>
+				<optiontype>boolean</optiontype>
+			</option>
+		</options>
+	</import>
+</data>
